@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <title>Page Title</title>
+    <meta name="description" content="A classless CSS framework that makes semantic HTML look good." />
+    
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+
+    <!-- Facebook integration -->
+    <meta property="og:title" content="Simple.css - A classless CSS framework"/>
+    <meta property="og:image" content="https://simplecss.org/assets/images/simple-css-feature.webp"/>
+    <meta property="og:url" content="https://simplecss.org/"/>
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Simple.css"/>
+    <meta property="og:description" content="A classless CSS framework that makes semantic HTML look good."/>
+
+    <!-- Twitter integration -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Simple.css - A classless CSS framework" />
+    <meta name="twitter:image" content="https://simplecss.org/assets/images/simple-css-feature.webp" />
+    <meta name="twitter:url" content="https://simplecss.org/" />
+    <meta name="twitter:description" content="Simple.css is classless CSS template that allows you to create a good looking website very quickly." />
+  </head>
+
+  <body>
+    <header>
+    <nav>
+      <a href="/" class="current">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <h1>Study Notes 📝</h1>
+    <p>Personal notes related to various tutorials made over the years <br>for my own reference.</p>
+  </header>
+  <main>
+    <!-- <p class="notice"><strong>Are you using Simple.css?</strong><br/>
+      If you are, it would be great if you considered buying me a coffee to say thanks. Things like this really help open source software thrive. You can <a href="https://ko-fi.com/kevquirk">Buy Me A Coffee</a> or even <a href="https://github.com/sponsors/kevquirk">sponsor me on GitHub</a>. ❤️</p>
+     -->
+      <h2>Linux File System</h2>  
+      <article id="36c10959-ff54-427d-9ec0-d570f818f77e">
+        <div class="page-body">
+            <ul id="a02a5867-8e1f-4dfd-abf9-f7902d1b73b8" class="bulleted-list">
+                <li style="list-style-type:disc">
+                    <strong>/bin</strong> → Binaries. Basic binaries or programs are present here like 
+                    <code>ls</code>
+                     and 
+                    <code>cat</code>
+                    .
+                </li>
+            </ul>
+            <ul id="c47f1dd1-4bc9-4836-b035-b45095c222a0" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/sBin</strong> → System Binaries. Programs used by system admin.</li>
+            </ul>
+            <ul id="76ee0d32-815a-41a8-aa5b-77f6c8450f22" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/boot</strong> → Files used by the OS to boot up. Not to be messed with.</li>
+            </ul>
+            <ul id="64185d11-95a4-48b9-80a1-18b3a77a9f5c" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/cdrom</strong> → Legacy mounting point for CD ROMs.</li>
+            </ul>
+            <ul id="57a6e32c-2987-407a-bad0-e5becf934d46" class="bulleted-list">
+                <li style="list-style-type:disc">
+                <strong>/dev</strong> → Everything lives here. Based on UNIX, it was decided everything is a file. Hardwares are present here. For example, disk is present as 
+                    <code>/dev/sda/</code>
+                    , 
+                    <code>/dev/sda1/</code>
+                    , 
+                    <code>/dev/sda2/</code>
+                    . Webcams and other hardwares are also present here.
+                </li>
+            </ul>
+            <ul id="94dcc21b-6e85-4afd-9acb-d78b3af6ddd4" class="bulleted-list">
+                <li style="list-style-type:disc">
+                  <strong>/etc</strong> → Et cetera. Sytem wide configurations are stored like 
+                    <code>apt</code>
+                </li>
+            </ul>
+            <ul id="f21c6296-52b7-4f2b-b8ee-b1f712743684" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/lib</strong> → Libraries. Libraries required by the binaries in bin are present here.</li>
+            </ul>
+            <ul id="944fb429-0910-4c1b-977a-c2a098b43783" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/mnt</strong> &amp; <strong>/media</strong> → Mounted devices are present here like external HDDs &amp; USB drives. Manually mounted things go to /mnt while automatically mounted devices show up under media.</li>
+            </ul>
+            <ul id="636f0354-8c53-42b0-bb11-373db3c72821" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/opt</strong> → Optional folder. Manually installed softwares installed are present here.</li>
+            </ul>
+            <ul id="f75cb193-9ac0-4c2a-a7f1-09f23813c680" class="bulleted-list">
+                <li style="list-style-type:disc">
+                    <strong>/proc</strong> → sudo files that contain information about procedures and system processes. Every process will have a directory with the process id with related files in it like status files.
+                    <ul id="a44af17c-3ae4-4dc8-ba5a-b6dc21681556" class="bulleted-list">
+                        <li style="list-style-type:circle">
+                            <code>cat /proc/cpuinfo</code>
+                        </li>
+                    </ul>
+                    <ul id="4902fc85-a3a0-49e5-9d98-73e7a7af3827" class="bulleted-list">
+                        <li style="list-style-type:circle">
+                            <code>cat /proc/uptime</code>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul id="9784fd44-c3b0-4656-bab1-8c7a389fb413" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/root</strong> → root user&#x27;s home folder. Needs root access to use files stored in here.</li>
+            </ul>
+            <ul id="74f7b765-83ce-4126-81d7-617314c31147" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/run</strong> → Newly introduced and used differently by different distros. Temp FS file system which means it runs on RAM. Everything in it is gone when the system is rebooted. It is used by processes that start early in the boot procedure to store the runtime information.</li>
+            </ul>
+            <ul id="ad40284e-d8a0-4552-82c6-cb6ee7eedcb7" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/snap</strong> → Used to store snap packages by Ubuntu </li>
+            </ul>
+            <ul id="fe751326-5639-41d3-9d68-c5390bfa0214" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/srv</strong> → Service Directory. Service data is stored. For webservers and ftp servers, the files to be accessed externally are placed here which in turn provides better security.</li>
+            </ul>
+            <ul id="8413eec1-b7b1-48aa-812d-1e3d76519de0" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/sys</strong> → System folder. It can be used to interact with the kernel. Similar to run directory. It&#x27;s not physically written to the disk but created everytime the system boots up.</li>
+            </ul>
+            <ul id="3ad8e9c8-ad41-4927-a50d-4948bd0fd2bf" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/tmp</strong> → Temporary. USed to store files temporarily by applications for a session like saving a temporary copy of a word document.</li>
+            </ul>
+            <ul id="dd62bbe8-31e7-4964-b4ed-a50eb8489b4c" class="bulleted-list">
+                <li style="list-style-type:disc">
+                    <strong>/usr</strong> → User application space. Used to store applications used by the user. Applications stored here are considered non-essential for basic system operations. Programs installed from source code will end up in the 
+                    <code>/usr/local/</code>
+                     folder.
+                </li>
+            </ul>
+            <ul id="cddf16e7-f24d-42d8-a768-00b67ab6a531" class="bulleted-list">
+                <li style="list-style-type:disc">
+                    <strong>/var</strong> → Variables. Contains files &amp; directories that are expected to grow in size. 
+                    <ul id="dff41b1f-e4fe-47df-85a3-d7ac0e838329" class="bulleted-list">
+                        <li style="list-style-type:circle">/var/crash/ → Holds info about crashes.</li>
+                    </ul>
+                    <ul id="2c8e3731-1d65-4338-a148-4b36f4d4a8ce" class="bulleted-list">
+                        <li style="list-style-type:circle">/var/logs/ → Holds logs of applications &amp; system.</li>
+                    </ul>
+                    <ul id="8a9641c2-5ec5-48af-8624-fe4ee6a72d15" class="bulleted-list">
+                        <li style="list-style-type:circle">Databases for mail &amp; temporary storage for printer queues.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul id="3a89cb2c-d0d2-4a97-9d3e-ba4a60a35b8e" class="bulleted-list">
+                <li style="list-style-type:disc"><strong>/home</strong> → Contains folder for each user. Personal files are stored here. Users can only access their own folder unless they are root user. This folder is often installed on a separate partition so that the OS can be reinstalled without users losing their files. User applications also stores files here sometimes.</li>
+            </ul>
+            <p id="1475af38-ffb5-4ca5-b218-454e272e520b" class=""></p>
+            <p id="b743e2c9-9f2b-43bd-896f-9de58fcd468c" class=""></p>
+            <p id="96b52de7-261c-4621-9c24-532361b65c47" class=""></p>
+        </div>
+    </article>
+    </main>
+  <footer>
+    Created by <a href="https://arghyadeep.in">Arghyadeep</a>.
+    <br>
+    Licensed under the MIT license.
+  </footer>
+  </body>
+</html>
