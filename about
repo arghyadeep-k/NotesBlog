@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <title>Page Title</title>
+    <meta name="description" content="A classless CSS framework that makes semantic HTML look good." />
+    
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+
+    <!-- Facebook integration -->
+    <meta property="og:title" content="Simple.css - A classless CSS framework"/>
+    <meta property="og:image" content="https://simplecss.org/assets/images/simple-css-feature.webp"/>
+    <meta property="og:url" content="https://simplecss.org/"/>
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Simple.css"/>
+    <meta property="og:description" content="A classless CSS framework that makes semantic HTML look good."/>
+
+    <!-- Twitter integration -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Simple.css - A classless CSS framework" />
+    <meta name="twitter:image" content="https://simplecss.org/assets/images/simple-css-feature.webp" />
+    <meta name="twitter:url" content="https://simplecss.org/" />
+    <meta name="twitter:description" content="Simple.css is classless CSS template that allows you to create a good looking website very quickly." />
+  </head>
+
+  <body>
+    <header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about" class="current">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <h1>Study Notes 📝</h1>
+    <p>Personal notes related to various tutorials made over the years <br>for my own reference.</p>
+  </header>
+  <main>
+    <p class="notice"><strong>Are you using Simple.css?</strong><br/>
+      If you are, it would be great if you considered buying me a coffee to say thanks. Things like this really help open source software thrive. You can <a href="https://ko-fi.com/kevquirk">Buy Me A Coffee</a> or even <a href="https://github.com/sponsors/kevquirk">sponsor me on GitHub</a>. ❤️</p>
+  </main>
+  <footer>
+    Created by <a href="https://arghyadeep.in">Arghyadeep</a>.
+    <br>
+    Licensed under the MIT license.
+  </footer>
+  </body>
+</html>
+
+
